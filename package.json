@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-website",
+  "homepage": "https://Hassan-Abd-El-Aziz.github.io/portfolio-website/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "gh-pages": "^6.3.0",
+    "vue": "^3.2.37",
+    "vue3-carousel": "^0.17.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.24",
+    "tailwindcss": "^4.3.3",
+    "vite": "^5.4.21"
+  }
+}
