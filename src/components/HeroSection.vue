@@ -69,8 +69,8 @@ const canvas = ref(null);
 const imageCount = 199;
 const images = [];
 const imagePaths = Array.from({ length: imageCount }, (_, i) => {
-  const frame = String(i + 1).padStart(3, '0');
-  return `public/imgs/ezgif-frame-${frame}.jpg`;
+  const frame = String(i + 1).padStart(3, "0");
+  return `${import.meta.env.BASE_URL}imgs/ezgif-frame-${frame}.jpg`;
 });
 
 const preloadImages = () => {
