@@ -70,7 +70,7 @@ const imageCount = 199;
 const images = [];
 const imagePaths = Array.from({ length: imageCount }, (_, i) => {
   const frame = String(i + 1).padStart(3, '0');
-  return `imgs/ezgif-frame-${frame}.jpg`;
+  return `public/imgs/ezgif-frame-${frame}.jpg`;
 });
 
 const preloadImages = () => {
